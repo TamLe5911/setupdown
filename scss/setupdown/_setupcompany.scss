@@ -1,0 +1,21 @@
+.form-wrapper {
+    max-width: 1046px;
+}
+.input-group {
+    input{
+        &::placeholder{
+            color: #0154B8;
+        }
+    }
+}
+.tab-panel {
+    display: flex;
+    .input{
+        border: none;
+        border-bottom: 1px solid #0154B8;
+        width: 93%;
+        color: #0154B8;
+        font-weight: 400;
+        outline: none;
+    }
+}
